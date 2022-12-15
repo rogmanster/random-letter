@@ -18,7 +18,7 @@ resource "random_shuffle" "names" {
           var.name-17,
           var.name-18,
           var.name-19,
-          var.name-20,
+          #var.name-20,
           #var.name-21,
           #var.name-22,
           #var.name-23,
@@ -46,7 +46,7 @@ variable "name-16" {}
 variable "name-17" {}
 variable "name-18" {}
 variable "name-19" {}
-variable "name-20" {}
+#variable "name-20" {}
 #variable "name-21" {}
 #variable "name-22" {}
 #variable "name-23" {}
